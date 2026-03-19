@@ -343,22 +343,15 @@
                     <td class="col-9">
                       <nav>
                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                          <button class="nav-link active" id="nav-quant-tab" data-bs-toggle="tab" data-bs-target="#nav-quant" type="button" role="tab" aria-controls="nav-quant" aria-selected="false">程序化交易和回测系统</button>
+                          <button class="nav-link active" id="nav-quant-tab" data-bs-toggle="tab" data-bs-target="#nav-quant" type="button" role="tab" aria-controls="nav-quant" aria-selected="true">程序化交易和回测系统</button>
 						  <button class="nav-link" id="nav-crypto-tab" data-bs-toggle="tab" data-bs-target="#nav-crypto" type="button" role="tab" aria-controls="nav-crypto" aria-selected="false">数字资产交易软件解决方案</button>
-						  <button class="nav-link" id="nav-callout-tab" data-bs-toggle="tab" data-bs-target="#nav-callout" type="button" role="tab" aria-controls="nav-callout" aria-selected="true">客服外呼系统</button>
+						  <button class="nav-link" id="nav-callout-tab" data-bs-toggle="tab" data-bs-target="#nav-callout" type="button" role="tab" aria-controls="nav-callout" aria-selected="false">客服外呼系统</button>
                           <button class="nav-link" id="nav-website-tab" data-bs-toggle="tab" data-bs-target="#nav-website" type="button" role="tab" aria-controls="nav-website" aria-selected="false">fengpyh.cn 网站</button>
                         </div>
                       </nav>
                       <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="nav-callout" role="tabpanel" aria-labelledby="nav-callout-tab" tabindex="0">
-                          <div class="container pt-3">
-                            <p>
-                              客服系统（Inbound System） 基于 WebSocket 与 IM 通讯协议，采用 Java/Go 异步并发架构，通过 React/Vue 集成多渠道即时通讯、智能工单管理及 AI 机器人自动回复，实现存量客户的高效咨询响应与闭环服务。 
-							  外呼系统 （Outbound System）基于 SIP 协议 与 FreeSWITCH/Asterisk 软交换技术，结合 Python/Node.js 调度引擎，集成预测式自动拨号、CRM 线索分配及 ASR/TTS 语音交互，实现增量客户的大规模触达、电销获客与自动化通知。
-                            </p>
-                          </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-quant" role="tabpanel" aria-labelledby="nav-quant-tab" tabindex="0">
+    
+                        <div class="tab-pane fade show active" id="nav-quant" role="tabpanel" aria-labelledby="nav-quant-tab" tabindex="0">
                           <div class="container pt-3">
                             <p>
                               程序化交易系统（Algorithmic Trading System） 基于 C++/Java/Python 高性能框架与 FIX/Binary 低延迟协议，通过接入实时行情网关并运行特定策略逻辑，实现行情解析、信号生成及全自动订单执行的闭环交易闭环。回测系统（Backtesting System）
@@ -368,12 +361,18 @@
                         </div>
 						<div class="tab-pane fade" id="nav-crypto" role="tabpanel" aria-labelledby="nav-crypto-tab" tabindex="0">
                           <div class="container pt-3">
-                            <p>
-                              模拟股票交易系统、行情系统、金融数据终端，模拟数字资产交易系统，数字资产永续合约交易系统、邀请/交易返佣系统、数字资产充提系统、数字资产托管系统、wallet、公链、L1 Perp系统<a class="link-secondary" href="#" target="_blank">更多信息请看这里。</a>
+                            <p>模拟股票交易系统、行情系统、金融数据终端，模拟数字资产交易系统，数字资产永续合约交易系统、邀请/交易返佣系统、数字资产充提系统、数字资产托管系统、wallet、公链、L1 Perp系统<a class="link-secondary" href="#" target="_blank">更多信息请看这里。</a>
                             </p>
                           </div>
                         </div>
-						
+						<div class="tab-pane fade" id="nav-callout" role="tabpanel" aria-labelledby="nav-callout-tab" tabindex="0">
+                          <div class="container pt-3">
+                            <p>
+                              客服系统（Inbound System） 基于 WebSocket 与 IM 通讯协议，采用 Java/Go 异步并发架构，通过 React/Vue 集成多渠道即时通讯、智能工单管理及 AI 机器人自动回复，实现存量客户的高效咨询响应与闭环服务。 
+							  外呼系统 （Outbound System）基于 SIP 协议 与 FreeSWITCH/Asterisk 软交换技术，结合 Python/Node.js 调度引擎，集成预测式自动拨号、CRM 线索分配及 ASR/TTS 语音交互，实现增量客户的大规模触达、电销获客与自动化通知。
+                            </p>
+                          </div>
+                        </div>
                         <div class="tab-pane fade" id="nav-website" role="tabpanel" aria-labelledby="nav-website-tab" tabindex="0">
                           <div class="container pt-3">
                             <p>
